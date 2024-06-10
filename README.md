@@ -37,6 +37,7 @@ sudo apt install libglm-dev
 sudo apt update
 sudo apt install libsdl2-dev
 ```
+_SDL2 library may need a small fix to the CMake configuration file, to avoid build errors. Remove a space after -lSDL2 in /usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake._
 [Freetype](https://freetype.org/) (libfreetype6-dev)
 
 ```bash
