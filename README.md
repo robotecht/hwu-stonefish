@@ -38,12 +38,37 @@ sudo apt update
 sudo apt install libsdl2-dev
 ```
 _SDL2 library may need a small fix to the CMake configuration file, to avoid build errors. Remove a space after -lSDL2 in /usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake._
+
 [Freetype](https://freetype.org/) (libfreetype6-dev)
 
 ```bash
 sudo apt update
 sudo apt install libfreetype6-dev
 ```
+## Building Stonefish
+
+```bash
+git clone "https://github.com/patrykcieslak/stonefish.git"
+cd stonefish
+mkdir build
+cd build
+cmake ..
+make -jX
+sudo make install
+```
+## Generating code documentation
+Navigate to stonefish directory
+
+### Install Doxygen
+```bash
+sudo apt install doxygen
+```
+
+```bash
+doxygen doxygen
+xgd-open docs/html/index.html
+```
+
 
 
 
