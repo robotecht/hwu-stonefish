@@ -25,6 +25,7 @@ The minimum requirement is the support for OpenGL 4.3. If the GPU is not fulfill
 The following dependencies have to be installed prior to building the library: 
 
 [OpenGL Mathematics ](https://github.com/g-truc/glm) (libglm-dev, version >= 0.9.9.0)
+'''
 sudo apt install build-essential cmake git
 git clone https://github.com/g-truc/glm.git
 cd glm
@@ -33,6 +34,7 @@ cd build
 cmake .. -DGLM_BUILD_TESTS=OFF -DGLM_BUILD_EXAMPLES=OFF  # Optional: Disable tests and examples
 make
 sudo make install
+'''
 
 
 [SDL2](https://github.com/g-truc/glm) (libsdl2-dev)
