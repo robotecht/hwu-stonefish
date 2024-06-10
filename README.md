@@ -68,6 +68,7 @@ sudo apt install doxygen
 doxygen doxygen
 xgd-open docs/html/index.html
 ```
+This open a browser window with the documentation to Stonefish.
 
 
 
