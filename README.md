@@ -44,7 +44,7 @@ sudo make install
 sudo apt update
 sudo apt install libsdl2-2.0-0 libsdl2-dev
 ```
-
+[Freetype](https://freetype.org/) (libfreetype6-dev)
 
 
 
