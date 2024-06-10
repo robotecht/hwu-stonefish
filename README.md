@@ -23,3 +23,14 @@ Another unique feature of the Stonefish library is its custom rendering pipeline
 **Operating System:** Linux Ubuntu 
 
 The minimum requirement is the support for OpenGL 4.3. If the GPU is not fulfilling the requirements, it is still possible to run simulation in console mode, with limited functionality. 
+
+## Dependencies 
+
+The following dependencies have to be installed prior to building the library: 
+
+
+OpenGL Mathematics (libglm-dev, version >= 0.9.9.0) 
+SDL2 (libsdl2-dev) 
+
+[Text to display](URL) "Title of the link"
+
