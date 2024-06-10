@@ -28,5 +28,5 @@ The following dependencies have to be installed prior to building the library:
 (libglm-dev, version >= 0.9.9.0) 
 SDL2 (libsdl2-dev) 
 
-https://github.com/g-truc/glm
+[Text](https://github.com/g-truc/glm)
 
