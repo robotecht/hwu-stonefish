@@ -40,5 +40,11 @@ sudo make install
 
 [SDL2](https://github.com/g-truc/glm) (libsdl2-dev)
 
+```bash
+sudo apt update
+sudo apt install libsdl2-2.0-0 libsdl2-dev
+```
+
+
 
 
