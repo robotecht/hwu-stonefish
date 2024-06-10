@@ -27,14 +27,7 @@ The following dependencies have to be installed prior to building the library:
 [OpenGL Mathematics ](https://github.com/g-truc/glm) (libglm-dev, version >= 0.9.9.0)
 
 ```bash
-sudo apt install build-essential cmake git
-git clone https://github.com/g-truc/glm.git
-cd glm
-mkdir build
-cd build
-cmake .. -DGLM_BUILD_TESTS=OFF -DGLM_BUILD_EXAMPLES=OFF  # Optional: Disable tests and examples
-make
-sudo make install
+sudo apt install libglm-dev
 ```
 
 
@@ -42,9 +35,14 @@ sudo make install
 
 ```bash
 sudo apt update
-sudo apt install libsdl2-2.0-0 libsdl2-dev
+sudo apt install libsdl2-dev
 ```
 [Freetype](https://freetype.org/) (libfreetype6-dev)
+
+```bash
+sudo apt update
+sudo apt install libfreetype6-dev
+```
 
 
 
