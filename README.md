@@ -24,9 +24,8 @@ The minimum requirement is the support for OpenGL 4.3. If the GPU is not fulfill
 
 The following dependencies have to be installed prior to building the library: 
 
+[OpenGL Mathematics ](https://github.com/g-truc/glm) libglm-dev, version >= 0.9.9.0
+[SDL2](https://github.com/g-truc/glm](https://www.libsdl.org/) libsdl2-dev
 
-(libglm-dev, version >= 0.9.9.0) 
-SDL2 (libsdl2-dev) 
 
-[OpenGL Mathematics ](https://github.com/g-truc/glm)
 
