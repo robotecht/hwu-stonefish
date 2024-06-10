@@ -31,9 +31,8 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
-'''bash
+```bash
 sudo apt install build-essential cmake git
-'''
 git clone https://github.com/g-truc/glm.git
 cd glm
 mkdir build
@@ -41,7 +40,7 @@ cd build
 cmake .. -DGLM_BUILD_TESTS=OFF -DGLM_BUILD_EXAMPLES=OFF  # Optional: Disable tests and examples
 make
 sudo make install
-
+```
 
 
 [SDL2](https://github.com/g-truc/glm) (libsdl2-dev)
