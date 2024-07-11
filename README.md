@@ -68,7 +68,7 @@ sudo apt install doxygen
 doxygen doxygen
 xgd-open docs/html/index.html
 ```
-This will open a browser window with the documentation to Stonefish.
+This will open a browser window with the documentation to Stonefish. Press ctrl + h to open the replacement window, and replace "lSDL2 " with "lSDL2", then select replace all option.
 
 
 
