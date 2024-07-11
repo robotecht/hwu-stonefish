@@ -69,6 +69,8 @@ doxygen doxygen
 xgd-open docs/html/index.html
 ```
 
+This will open a browser window with the documentation to Stonefish. 
+
 
 
 
